@@ -43,7 +43,6 @@ boxes.forEach((box) => {
 const disabled = () => {
   for (let box of boxes) {
     box.disabled = true;
-    box.style.background = "black";
   }
 };
 const enabled = () => {
