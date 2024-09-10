@@ -61,6 +61,7 @@ h1 {
 .msgWin {
   font-size: 3rem;
   color: #caf0f8;
+  text-align: center;
 }
 .msg-container {
   display: flex;
