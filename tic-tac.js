@@ -52,7 +52,7 @@ const enabled = () => {
   }
 };
 const showWinner = (winner) => {
-  msg.innerText = `Congratulations, Winner is ${winner}`;
+  msg.innerText = `Congratulations <br>, Winner is ${winner}`;
   msgContainer.classList.remove("hide");
   gameContainer.style.display = "none";
   disabled();
