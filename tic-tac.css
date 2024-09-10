@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #264653;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  color: #d1e9d5;
+  font-size: 2.5rem;
+}
+#box {
+  width: 300px;
+  height: 300px;
+  margin-top: 7vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1vmin;
+}
+
+.ibox {
+  background-color: #caf0f8;
+  color: rgb(29, 25, 61);
+  font-size: 3rem;
+  width: 90px;
+  height: 90px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#btn {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2e2c2f;
+  color: #d1e9d5;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#newBtn {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2e2c2f;
+  color: #d1e9d5;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.msgWin {
+  font-size: 3rem;
+  color: #caf0f8;
+}
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.hide {
+  display: none;
+}
+.jadu {
+  visibility: hidden;
+}
+@media only screen and (max-width: 570px) {
+  #box {
+    width: 80vw;
+    height: 80vw;
+  }
+  .ibox {
+    font-size: 17vw;
+    width: 32%;
+    height: 32%;
+  }
+  h1 {
+    font-size: 12vw;
+  }
+  .msgWin {
+    font-size: 8vw;
+  }
+}
